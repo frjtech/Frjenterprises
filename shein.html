@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ht">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Achte sou Shein — FRJ Enterprises LLC</title>
+<meta name="description" content="Voye nou lyen pwodwi Shein ou renmen an, nou achte l pou ou epi nou prepare l pou ekspedisyon rive Ayiti." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 rx=%2722%27 fill=%27%230a2559%27/%3E%3Ctext x=%2750%27 y=%2768%27 font-size=%2752%27 font-family=%27Arial%2C sans-serif%27 font-weight=%27900%27 fill=%27white%27 text-anchor=%27middle%27%3EF%3C/text%3E%3C/svg%3E" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <span class="brand-mark">FRJ</span>
+      <span data-frj-business>FRJ Enterprises LLC</span>
+    </a>
+    <button class="nav-toggle" aria-label="Ouvri meni"><span></span><span></span><span></span></button>
+    <nav class="nav-menu">
+      <a href="index.html">Akèy</a>
+      <a href="shein.html">Shein</a>
+      <a href="shipping.html">Ajans Livrezon</a>
+      <a href="shop.html">Shop Now</a>
+      <a class="btn-whatsapp" data-frj-whatsapp="Bonjou! Mwen enterese nan sèvis FRJ Enterprises yo.">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="padding:52px 0 64px;">
+  <div class="container" style="grid-template-columns:1fr;">
+    <div style="max-width:640px;">
+      <span class="eyebrow" style="color:var(--gold); font-weight:800; text-transform:uppercase; letter-spacing:1.5px; font-size:0.8rem;">Sèvis Shein</span>
+      <h1 style="margin-top:10px;">Nou achte sou Shein pou ou, san w pa bezwen kat kredi USA</h1>
+      <p>Voye nou lyen pwodwi a, kantite ou vle a, ak nimewo WhatsApp ou. Nou konfime pri total la (pwodwi + sèvis + ekspedisyon) anvan nou achte anyen.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Kòman li mache</span>
+      <h2>3 etap senp</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-number">1</div>
+        <h4>Voye lyen an</h4>
+        <p>Ranpli fòm anba a oswa voye lyen Shein pwodwi a dirèkteman sou WhatsApp.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <h4>Konfimasyon pri</h4>
+        <p>Nou kalkile pri pwodwi a + frè sèvis + ekspedisyon, epi nou voye w yon total klè.</p>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <h4>Acha ak Livrezon</h4>
+        <p>Yon fwa ou konfime, nou achte pwodwi a epi nou prepare l pou l pati pou Ayiti ak youn nan ajans livrezon nou yo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:#fff; border-top:1px solid var(--border);">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Fè Demand Ou</span>
+      <h2>Ranpli fòm lan</h2>
+      <p>Lè w peze "Voye sou WhatsApp", n ap ouvri WhatsApp ak yon mesaj deja ranpli pou ou.</p>
+    </div>
+    <form class="form-card" onsubmit="return frjSubmitSheinForm(event)">
+      <div class="form-row">
+        <label for="name">Non w</label>
+        <input id="name" name="name" type="text" required placeholder="Egzanp: Jan Pyè" />
+      </div>
+      <div class="form-row">
+        <label for="phone">Nimewo WhatsApp ou</label>
+        <input id="phone" name="phone" type="tel" required placeholder="Egzanp: +509 3xxx xxxx" />
+      </div>
+      <div class="form-row">
+        <label for="link">Lyen pwodwi a sou Shein</label>
+        <input id="link" name="link" type="url" required placeholder="https://www.shein.com/..." />
+        <div class="form-hint">Kopye lyen an dirèkteman nan app Shein la oswa sit wèb la epi kole l isit.</div>
+      </div>
+      <div class="form-row">
+        <label for="qty">Kantite / Gwosè / Koulè</label>
+        <input id="qty" name="qty" type="text" required placeholder="Egzanp: 2 moso, gwosè M, nwa" />
+      </div>
+      <div class="form-row">
+        <label for="notes">Nòt adisyonèl (opsyonèl)</label>
+        <textarea id="notes" name="notes" rows="3" placeholder="Nenpòt lòt enfòmasyon..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-whatsapp btn-block">Voye sou WhatsApp 💬</button>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4 data-frj-business>FRJ Enterprises LLC</h4>
+        <p>Nou ede vandè k ap opere nan Ayiti achte, ekspedye, ak revann pwodwi ak pi bon pri posib.</p>
+        <div class="footer-social">
+          <a data-frj-instagram href="#" aria-label="Instagram">IG</a>
+          <a data-frj-facebook href="#" aria-label="Facebook">FB</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navigasyon</h4>
+        <ul>
+          <li><a href="shein.html">Achte sou Shein</a></li>
+          <li><a href="shipping.html">Ajans Livrezon</a></li>
+          <li><a href="shop.html">Shop Now</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul>
+          <li><a data-frj-whatsapp="Bonjou! Mwen gen yon kesyon pou FRJ Enterprises.">WhatsApp</a></li>
+          <li><a data-frj-email href="#">imèl</a></li>
+          <li><span data-frj-location>New Haven, CT, USA</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © <span data-frj-year>2026</span> <span data-frj-business>FRJ Enterprises LLC</span>. Tout dwa rezève.
+    </div>
+  </div>
+</footer>
+
+<a class="float-whatsapp" data-frj-whatsapp="Bonjou! Mwen ta renmen pale ak FRJ Enterprises LLC." aria-label="Ekri nou sou WhatsApp">💬</a>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
